@@ -1,0 +1,149 @@
+#main {
+  padding: 50px 0;
+
+  .menu {
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h4 {
+        color: white;
+        font-family: "Shalimar", sans-serif;
+        font-size: 30px;
+        margin: 0 20px;
+      }
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-family: "Libre Baskerville", sans-serif;
+      color: white;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 55px;
+      width: 337px;
+    }
+  }
+
+  .tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    &--list {
+      position: relative;
+      li {
+        display: flex;
+        align-items: center;
+
+        .liner {
+          width: 354px;
+          height: 1px;
+          background: rgb(93,93,105);
+          background: linear-gradient(90deg, rgba(93,93,105,0) 0%, rgba(255,255,255,1) 50%, rgba(31,39,49,1) 100%);
+
+        }
+      }
+
+      &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 65px;
+        color: white;
+        background: #1F2731;
+
+      }
+
+      .line {
+        position: absolute;
+        right: -10px;
+        width: 50px;
+        height: 2px;
+        background: #FFFFFF;
+      }
+
+      button:hover {
+        background: #77797e;
+      }
+
+      .active {
+        background: #de080c;
+        transition: .3s ease-in-out;
+
+      }
+
+    }
+
+    &--content {
+      padding: 10px 0;
+      margin: 0 50px 0 0;
+
+    }
+
+    .card {
+      padding: 0 0 40px 0;
+      position: relative;
+
+      &--text {
+        display: flex;
+
+        p {
+
+          font-weight: 600;
+          font-size: 18px;
+          color: #FFFFFF;
+          opacity: 0.9;
+          margin: 0 -10px 0 10px;
+        }
+
+        h1 {
+          font-family: 'Libre Baskerville', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          color: white;
+        }
+
+        h4 {
+          font-family: 'Libre Baskerville', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          color: #EF272C;
+          margin: 0 0 0 -20px;
+        }
+      }
+
+      p {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #d2d2d2;
+        height: 40px;
+        width: 389px;
+      }
+
+      h3 {
+        font-family: 'Libre Baskerville', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        color: #FFFFFF;
+
+      }
+      &--chyzyc{
+        background: white;
+        width: 65px;
+        height: 1px;
+      }
+    }
+  }
+}

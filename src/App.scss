@@ -1,0 +1,16 @@
+@import "/src/Style/About";
+@import "/src/Style/Best";
+@import "/src/Style/Main";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
