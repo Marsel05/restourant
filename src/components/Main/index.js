@@ -110,7 +110,7 @@ const Main = () => {
                                                 >
                                                     {tab.title}   {activeTab === index && <div className="line"/>}
                                                 </button>
-                                                <div className="liner">SDFDS</div>
+                                                <div className="liner">11111</div>
                                             </center>
 
 
