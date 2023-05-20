@@ -1,0 +1,198 @@
+#home{
+  background: url("../../src/img/bg.jpg")no-repeat center/cover;
+  min-height: 78vh;
+  .modal{
+    background-color: rgba(5, 5, 5, 0.48);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .home{
+    padding-top: 100px;
+    position: relative;
+    min-height: 78vh;
+    backdrop-filter: blur(4px);
+    background: rgba(0,0,0,.45);
+    &--shift{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h1{
+        font-family: 'Libre Baskerville', sans-serif;
+        font-weight: 600;
+        font-size: 64px;
+        color: #FFFFFF;
+        padding: 30px 0;
+      }
+      p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+      }
+      button{
+        cursor: pointer;
+        background: transparent;
+        padding: 13px 23px;
+        border: 2px solid red;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+      &__delicuios{
+        display: flex;
+        align-items: center;
+        h5{
+          font-family: 'Shalimar';
+          font-weight: 400;
+          font-size: 40px;
+          color: #FFFFFF;
+          margin: 0 20px;
+        }
+        &--lin{
+          img{
+            width: 100px;
+          }
+          &__lin2{
+            width: 90.75px;
+            border: 2px solid #EF272C;
+            margin: 10px 0;
+          }
+        }
+      }
+      &__modal{
+        position: absolute;
+        top: 150px;
+        right: 650px;
+        background: #151521;
+        border-radius: 15px;
+        padding: 30px 30px;
+        animation: drone 1.3s ease-in-out;
+        transform: translateX(500px);
+        z-index: 99;
+        &--inputs{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          &__user{
+            display: flex;
+            &--icon{
+              width: 40px;
+              height: 40px;
+              background: #444343;
+              border-radius: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-right: 10px;
+              color: red;
+            }
+          }
+          &__input1{
+            margin-bottom: 10px;
+          }
+          h2{
+            padding-bottom: 10px;
+            color: white;
+            cursor: pointer;
+          }
+          input{
+            background: transparent;
+            padding: 10px;
+          }
+          h3{
+            font-weight: 400;
+            font-size: 12px;
+            color: #FFFFFF;
+            padding-bottom: 8px;
+            text-align: start;
+            margin-left: 15px;
+          }
+          button{
+            width: 200px;
+            height: 40px;
+            background: #EF272C;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+            padding-bottom: 13px;
+          }
+        }
+      }
+    }
+    @keyframes drone {
+      0%{
+        transform: translateX(400rem);
+      }
+    }
+    &--number {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 84%;
+      position: absolute;
+      bottom: 50px;
+      left: 150px;
+
+      &__location {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          font-weight: 600;
+          font-size: 14px;
+          text-transform: capitalize;
+          color: #FFFFFF;
+        }
+        a{
+          color: red;
+          font-size: 17px;
+          margin: 0 15px;
+        }
+        &--lin {
+          width: 56px;
+          border: 1px solid #FFFFFF;
+          margin: 0 15px;
+
+        }
+      }
+    }
+    &--absolute{
+      &__local1{
+        position: absolute;
+        bottom: 200px;
+        left: -100px;
+        margin-right: 10px;
+        width: 340px;
+        opacity: 0.6;
+        border: 0.4px solid #444343FF;
+        transform: rotate(-90deg);
+      }
+      &__local2{
+        width: 1500px;
+        border: 0.2px solid #444343;
+        position: absolute;
+        bottom: 10px;
+        right: 100px;
+      }
+      &__local3{
+        width: 350px;
+        border: 0.4px solid #444343FF;
+        position: absolute;
+        top: 45px;
+        right: 90px;
+      }
+    }
+  }
+
+}
