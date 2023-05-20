@@ -13,75 +13,75 @@ const Main = () => {
     const tabs = [
         {
             title: 'Desserts',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Beer Brewery</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$24</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Beer Brewery</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$24</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
         {
             title: 'Hot Drinks',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Burger&Pasta</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$14</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Burger&Pasta</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$14</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
         {
             title: 'Cold Drinks',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Burger&Pasta</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$14</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Burger&Pasta</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$14</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
         {
             title: 'National Foods',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Burger&Pasta</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$14</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Burger&Pasta</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$14</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
         {
             title: 'Eastern cuisine',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Burger&Pasta</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$14</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Burger&Pasta</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$14</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
         {
             title: 'Fast foods',
-            content: <div className="card">
-                <div className="card--text">
-                    <h1>Burger&Pasta</h1>
-                    <p>.....................................................................................</p>
-                    <h4>$14</h4>
-                </div>
-                <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
-                    pneumativ.</p>
-            </div>
+            // content: <div className="card">
+            //     <div className="card--text">
+            //         <h1>Burger&Pasta</h1>
+            //         <p>.....................................................................................</p>
+            //         <h4>$14</h4>
+            //     </div>
+            //     <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om
+            //         pneumativ.</p>
+            // </div>
         },
 
     ];
@@ -110,7 +110,7 @@ const Main = () => {
                                                 >
                                                     {tab.title}   {activeTab === index && <div className="line"/>}
                                                 </button>
-                                                <div className="liner"></div>
+                                                <div className="liner">SDFDS</div>
                                             </center>
 
 
