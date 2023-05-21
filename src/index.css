@@ -13,6 +13,7 @@ code {
 }
 html{
   background: #1b2026;
+  scroll-behavior: smooth;
 }
 @tailwind base;
 @tailwind components;

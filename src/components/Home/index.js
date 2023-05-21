@@ -22,7 +22,7 @@ const Home = () => {
 
                             </div>
                         </div>
-                        <h5>Deliciousыыыыыыыыыыыы</h5>
+                        <h5>Delicious</h5>
                         <div className="home--shift__delicuios--lin">
                             <img src={img2} alt=""/>
                             <div className="home--shift__delicuios--lin__lin2">

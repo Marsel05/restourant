@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 const Header = () => {
     const [modal, setModal] = useState(false)
@@ -8,12 +9,14 @@ const Header = () => {
                 <div className="header">
                     <h1>Restaurant</h1>
                     <div className="header--nav" style={{
-                        display: modal ? "block" : "none",
+                        // display:  modal ?  "block" : "none",
                         zIndex: modal ? "97" : ""
                     }}>
-                        <a href="#">interior</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Contacts</a>
+                        <Link to={"/interior"}>interior</Link>
+                        <Link to={"/about"}>About Us</Link>
+                        <Link to={"/main"}>Menu</Link>
+                        <Link to={"/"}>Contacts</Link>
+
                     </div>
                     <div className=""></div>
                     <div className=""></div>
