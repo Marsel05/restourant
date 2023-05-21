@@ -11,19 +11,16 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 
-
 function App() {
     return (
         <div className="App">
             <Header/>
-            <Routes>
-                <Route path={"/"} element={ <Home/> }/>
-                <Route path={"/about"} element={  <About/> }/>
-                <Route path={"/best"} element={ <Best/> }/>
-                <Route path={"/main"} element={ <Main/> }/>
-                <Route path={"/interior"} element={ <Interior/> }/>
-                <Route path={"/footer"} element={ <Footer/> }/>
-            </Routes>
+            <Home/>
+            <About/>
+            <Best/>
+            <Main/>
+            <Interior/>
+            <Footer/>
         </div>
     );
 }
