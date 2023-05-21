@@ -15,13 +15,14 @@ const About = () => {
                     <div className="about--title">
                         <h1>A Journey Throught
                         Cafesio Flavors</h1>
-                        <img src={foot} alt=""/>
-                    </div>
-                    <div className="about--lorem">
                         <p>Try dishes that will open up new tastes for you and delight your eyes with their appearance.
                             Here you will find a cozy atmosphere, excellent service and attention to each guest. Book a
                             table now and enjoy a unique experience of taste discovery!</p>
-                        <img src={glaze} alt="img"/>
+
+                    </div>
+                    <div className="about--lorem">
+                        <img src={foot} alt=""/>
+                       <img src={glaze} alt="img"/>
                     </div>
                 </div>
             </div>

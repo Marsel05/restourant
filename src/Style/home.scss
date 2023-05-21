@@ -1,6 +1,6 @@
 #home{
   background: url("../../src/img/bg.jpg")no-repeat center/cover;
-  min-height: 78vh;
+  min-height: 89vh;
   .modal{
     background-color: rgba(5, 5, 5, 0.48);
     backdrop-filter: blur(3px);
@@ -13,7 +13,7 @@
   .home{
     padding-top: 100px;
     position: relative;
-    min-height: 78vh;
+    min-height: 89vh;
     backdrop-filter: blur(4px);
     background: rgba(0,0,0,.45);
     &--shift{
@@ -37,15 +37,21 @@
         color: #FFFFFF;
       }
       button{
+        display: flex;
+        align-items: center;
         cursor: pointer;
         background: transparent;
-        padding: 13px 23px;
+        padding: 13px 20px;
         border: 2px solid red;
         font-weight: 600;
         font-size: 12px;
         line-height: 13px;
         text-transform: uppercase;
         color: #FFFFFF;
+        .house{
+          margin: 0 0 0 10px;
+          font-size: 15px;
+        }
       }
       &__delicuios{
         display: flex;

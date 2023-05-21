@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {ImLocation2} from 'react-icons/im'
-import {BsFillTelephoneFill, BsTelephoneFill} from "react-icons/bs";
+import {BsArrowRight, BsFillTelephoneFill, BsTelephoneFill} from "react-icons/bs";
 import img from "../../img/lineabout.svg"
 import img2 from "../../img/line2.svg"
 import {FaUserEdit} from "react-icons/fa";
@@ -22,7 +22,7 @@ const Home = () => {
 
                             </div>
                         </div>
-                        <h5>Deliciousыыыыыыыыыыыы</h5>
+                        <h5>Delicious</h5>
                         <div className="home--shift__delicuios--lin">
                             <img src={img2} alt=""/>
                             <div className="home--shift__delicuios--lin__lin2">
@@ -40,7 +40,7 @@ const Home = () => {
                         onClick={() => {
                             setModal(true)
                         }}
-                    >Reserve Your Table</button>
+                    >Reserve Your Table <BsArrowRight className="house"/></button>
                     <div className="home--shift__delicuios--lin__lin2">
 
                     </div>

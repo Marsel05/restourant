@@ -146,4 +146,33 @@
       }
     }
   }
+  .kep{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &--lin{
+      width: 90.75px;
+      border: 2px solid #EF272C;
+
+      margin: 10px 0;
+    }
+    button{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background: transparent;
+      padding: 13px 20px;
+      border: 2px solid red;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 13px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      .house{
+        margin: 0 0 0 10px;
+        font-size: 15px;
+      }
+
+    }
+  }
 }

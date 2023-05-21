@@ -3,6 +3,7 @@ import line2 from "../../img/line2.svg"
 import line from "../../img/lineabout.svg"
 import {useState} from 'react';
 import { NavLink} from "react-router-dom";
+import {BsArrowRight} from "react-icons/bs";
 
 const Main = () => {
     const [activeTab, setActiveTab] = useState(0);
@@ -102,7 +103,6 @@ const Main = () => {
                             {
                                 tabs.map((tab, index) => (
                                     <li key={index}>
-                                        <NavLink to="/menu">
                                             <center>
                                                 <button
                                                     className={`tab--list__link ${activeTab === index ? 'active' : ''}`}
@@ -110,12 +110,8 @@ const Main = () => {
                                                 >
                                                     {tab.title}   {activeTab === index && <div className="line"/>}
                                                 </button>
-                                                <div className="liner">11111</div>
+                                                <div className="liner"></div>
                                             </center>
-
-
-                                        </NavLink>
-
                                     </li>))
                             }
 
@@ -194,7 +190,17 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                <div className="kep">
+                    <div className="kep--lin">
 
+                    </div>
+                    <NavLink to={"/menu"} >
+                        <button>VIEW FULL MENU <BsArrowRight className="house" /></button>
+                    </NavLink>
+                    <div className="kep--lin">
+
+                    </div>
+                </div>
 
             </div>
         </div>
